@@ -15,7 +15,7 @@ on:
   # This runs at 10:00 UTC, which is 6:00 AM ET (during Daylight Saving)
   # or 5:00 AM ET (during Standard Time). GitHub Actions uses UTC time.
   # schedule: # Uncomment to enable scheduled runs
-    # - cron: '0 10 * * *' # Uncomment to enable scheduled runs
+    # - cron: '0 6 * * 1' # Uncomment to enable scheduled runs
 
 permissions:
   contents: read
