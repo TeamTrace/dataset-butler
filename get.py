@@ -1,6 +1,7 @@
 # get.py
 import os
 import logging
+import requests
 import redivis
 
 logger = logging.getLogger(__name__)
